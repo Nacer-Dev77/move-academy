@@ -40,6 +40,7 @@ button {
 @media screen and (min-width: 320px) {
   .container img {
     width: 95%;
+    padding: 10px;
   }
 
   .container h1 {
@@ -194,8 +195,10 @@ button {
 
   .flex {
     display: flex;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    width: 95%;
   }
   .flex h3 {
     font-size: 35px;
@@ -408,8 +411,8 @@ button {
     line-height: 1.4;
     margin: 5rem auto 2rem;
     font-size: 16px;
-}
-.more {
+  }
+  .more {
     background-color: #7e4a7c;
     color: white;
     text-decoration: none;
@@ -421,7 +424,7 @@ button {
     text-align: center;
     border-radius: 10px;
     margin-top: 5rem;
-}
+  }
 
   .days p {
     font-size: 18px;
@@ -489,7 +492,7 @@ button {
   }
 
   .about article {
-    width: 50%;  
+    width: 50%;
   }
 
   aside {
